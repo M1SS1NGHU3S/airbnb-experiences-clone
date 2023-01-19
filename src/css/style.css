@@ -52,16 +52,26 @@ nav {
 .cards-list {
     display: flex;
     justify-content: space-between;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .experience-card {
     font-size: 12px;
     font-weight: 300;
-    padding-top: 20px;
-    margin: 0 20px 0 20px;
+    margin: 20px 10px 0;
     display: inline-block;
+    position: relative;
     width: auto;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }
 
 .card-img {

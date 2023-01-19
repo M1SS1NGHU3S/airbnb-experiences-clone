@@ -6,7 +6,9 @@ const cardsData = [
         country: "USA",
         rating: "5.0",
         quantity: 6,
-        price: 136
+        price: 136,
+        openSpots: 0,
+        location: "online"
     },
     {
         id: 2,
@@ -15,7 +17,9 @@ const cardsData = [
         country: "USA",
         rating: "5.0",
         quantity: 30,
-        price: 125
+        price: 125,
+        openSpots: 27,
+        location: "online"
     },
     {
         id: 3,
@@ -24,7 +28,9 @@ const cardsData = [
         country: "USA",
         rating: "4.8",
         quantity: 2,
-        price: 50
+        price: 50,
+        openSpots: 3,
+        location: "USA"
     }
 ]
 

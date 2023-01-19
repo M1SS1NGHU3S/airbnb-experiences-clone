@@ -5,12 +5,8 @@ function Experiences() {
     const cards = cardsData.map((value) => {
         return (
             <Card 
-                img={value.img} 
-                rating={value.rating} 
-                quantity={value.quantity} 
-                country={value.quantity} 
-                description={value.title} 
-                price={value.price} 
+                key={value.id}
+                item={value}
             />
         )
     });
