@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Nav */
+nav {
+    padding: 22px 30px 20px 30px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.1);
+}
+
+/* Hero */
+#hero--img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px 20px;
+}
+
+#hero--content {
+    padding: 20px 0px 0px 80px;
+}
+
+#hero--title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero--text {
+    font-size: 16px;
+    margin-top: 5px;
+    width: 350px;
+}
+
+/* Cards */
+.experience-card {
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 20px;
+    margin-left: 80px;
+    width: auto;
+}
+
+.card-img {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.exp-description {
+    display: inline-flex;
+    align-items: center;
+}
+
+.rating {
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.rating--star {
+    width: 14px;
+}
+
+.rating--caption {
+    font-weight: 300;
+    color: #222222;
+    display: inline;
+    margin-left: 3px;
+}
+
+.exp-info {
+    color: #918E9B;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.exp-text {
+    margin: 5px 0;
+}
+
+.exp-price {
+    margin: 0;
+}
+
+.price--bold {
+    font-weight: 700;
+}
