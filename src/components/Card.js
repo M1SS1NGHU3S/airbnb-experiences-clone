@@ -1,5 +1,3 @@
- import star from "../img/star.png";
-
 function Card(props) {
     return (
         <div className="experience-card ">
@@ -7,7 +5,7 @@ function Card(props) {
 
             <div className="exp-description">
                 <figure className="rating">
-                    <img className="rating--star" src={star} alt="star rating" />
+                    <img className="rating--star" src="img/star.png" alt="star rating" />
                     <figcaption className="rating--caption">{props.rating}</figcaption>
                 </figure>
 

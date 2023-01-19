@@ -1,9 +1,7 @@
-import heroImg from "../img/hero-img.png";
-
 function Hero() {
     return (
         <div id="hero">
-            <img id="hero--img" src={heroImg} alt="multiple experiences" />
+            <img id="hero--img" src="img/hero-img.png" alt="multiple experiences" />
             
             <div id="hero--content">
                 <h1 id="hero--title">Online Experiences</h1>

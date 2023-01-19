@@ -1,9 +1,7 @@
-import logo from "../img/airbnb-logo.png";
-
 function NavBar() {
     return (
         <nav>
-            <img src={logo} alt="airbnb logo" />
+            <img src="img/airbnb-logo.png" alt="airbnb logo" />
         </nav>
     );
 }
