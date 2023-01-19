@@ -3,7 +3,7 @@
 function Card(props) {
     return (
         <div className="experience-card ">
-            <img className="card-img" src={props.img} alt="example" />
+            <img className="card-img" src={`img/${props.img}`} alt="example" />
 
             <div className="exp-description">
                 <figure className="rating">
