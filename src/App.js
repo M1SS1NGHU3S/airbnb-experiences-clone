@@ -1,13 +1,13 @@
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
-import Card from "./components/Card";
+import Experiences from "./components/Experiences";
 
 function App() {
 	return (
-		<div>
+		<div id="container">
 			<NavBar />
 			<Hero />
-			<Card />
+			<Experiences />
 		</div>
   	);
 }
